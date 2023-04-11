@@ -4,7 +4,8 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de moedas</title>
@@ -12,16 +13,16 @@
 
 <body class="bg-primary-subtle">
 
-    <div class="container-sm bg-primary  text-center rounded aling-items-center">
-        <h1 class="text-white">Conversor de moedas</h1>
-        <div class="row"><
+    <div class="container-sm bg-primary  text-center rounded mt-5 pb-4">
+        <h1 class="text-white mb-3 pt-3">Conversor de moedas</h1>
+        <div class="row justify-content-center">
         <div class="col-2">
-            <h1 class="text-white">Digite o valor de real</h1>
+            <h1 class="text-white">Digite o valor em real</h1>
             <input class="rounded" id="valor1" type="text"></input>
         </div>
 
         <div class="col-2">
-            <h1 class="text-white">Digite a cotação do dolar</h1>
+            <h1 class="text-white">Digite a cotação do dólar</h1>
             <input class="rounded" id="valor-dolar" type="text"></input>
         </div>
 
@@ -41,11 +42,11 @@
             <button type="button" class="btn btn-info btn-lg" onclick="operacao()">Converter</button>
         </div>
         <div class="mt-5">
-            <input class="rounded bg-secondary-subtle text-black fst-italic" id="resultado-dolar" placeholder="dolar" type="text"
+            <input class="rounded bg-secondary-subtle text-black fst-italic" id="resultado-dolar" placeholder="Dolar" type="text"
                 disabled></input>
-            <input class="rounded bg-secondary-subtle text-black fst-italic" id="resultado-libra" placeholder="libra" type="text"
+            <input class="rounded bg-secondary-subtle text-black fst-italic" id="resultado-libra" placeholder="Libra" type="text"
                 disabled></input>
-            <input class="rounded bg-secondary-subtle text-black fst-italic" id="resultado-euro" placeholder="euro" type="text"
+            <input class="rounded bg-secondary-subtle text-black fst-italic" id="resultado-euro" placeholder="Euro" type="text"
                 disabled></input>
         </div>
     </div>
